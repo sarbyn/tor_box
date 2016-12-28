@@ -15,7 +15,7 @@
 /sbin/iptables -A FORWARD -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
 /sbin/iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
 
-/bin/sh -c "/sbin/iptables-save > /etc/iptables.ipv4.nat"
+/bin/sh -c "/sbin/iptables-save > /etc//etc/iptables/rules.v4"
 
 /bin/echo "Creating Log:"
 /usr/bin/touch /var/log/tor/notices.log
