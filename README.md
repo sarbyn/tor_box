@@ -99,9 +99,9 @@ Now all the commands you type will be as a root user.  Your prompt should now lo
 ```
 root@raspberrypi:~#
 ```
-Now, you can do all the typing to configure the IP tables and install Tor on your own, or you can simply run the shell script I created.  It couldn't be easier to run.  The script can be found in this repository [here](https://github.com/CMoncur/tor_box/blob/master/installtor.sh), titled ```installtor.sh```.  To run the script, all you need to do is type in the following command:
+Now, you can do all the typing to configure the IP tables and install Tor on your own, or you can simply run the shell script I created.  It couldn't be easier to run.  The script can be found in this repository [here](https://github.com/sarbyn/tor_box/blob/master/installtor.sh), titled ```installtor.sh```.  To run the script, all you need to do is type in the following command:
 ```
-root@raspberrypi:~# curl -fsSL https://raw.githubusercontent.com/CMoncur/tor_box/master/installtor.sh | sudo sh
+root@raspberrypi:~# curl -fsSL https://raw.githubusercontent.com/sarbyn/tor_box/master/installtor.sh | sudo sh
 ```
 Allow Tor to install entirely.  Now, there's one more thing to do before we call it a day.  We have to ensure Tor is configured to your liking. Now, you might decide that you don't actually want to change anything, and that's fine.  The configuration file as it is will appeal to a vast majority of users.  However, if you do want to change your configuration settings, open up a Nano editor of the Tor configuration file by typing:
 ```
@@ -127,9 +127,9 @@ Now all the commands you type will be as a root user.  Your prompt should now lo
 ```
 root@raspberrypi:~#
 ```
-You can most certainly install Tor, set up IP tables, and configure everything on your own, but running this shell script will accomplish all of that for you seamlessly.  The script can be found in this repository [here](https://github.com/CMoncur/tor_box/blob/master/installtorwithrelay.sh), titled ```installtorwithrelay.sh```.  To run the script, all you need to do is type in the following command:
+You can most certainly install Tor, set up IP tables, and configure everything on your own, but running this shell script will accomplish all of that for you seamlessly.  The script can be found in this repository [here](https://github.com/sarbyn/tor_box/blob/master/installtorwithrelay.sh), titled ```installtorwithrelay.sh```.  To run the script, all you need to do is type in the following command:
 ```
-root@raspberrypi:~# curl -fsSL https://raw.githubusercontent.com/CMoncur/tor_box/master/installtorwithrelay.sh | sudo sh
+root@raspberrypi:~# curl -fsSL https://raw.githubusercontent.com/sarbyn/tor_box/master/installtorwithrelay.sh | sudo sh
 ```
 Allow Tor to install entirely.  Now, there's one more thing to do before we call it a day.  We have to ensure Tor is configured to your liking. Now, you might decide that you don't actually want to change anything, and that's fine.  The configuration file as it is will appeal to a vast majority of users.  However, if you do want to change your configuration settings, open up a Nano editor of the Tor configuration file by typing:
 ```
